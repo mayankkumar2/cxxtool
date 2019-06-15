@@ -2,6 +2,9 @@ What does the program do?
 ===================================
 The Program is there to run the binary files compiled in WSL with a single click.
 
+DISCLAIMER : The target system should be x86 for the program to work. If you want to compile the program for a x64 machine repalce line 31 with :        cmd = "start wsl "+cmd;
+
+
 How to compile the program:
 ===================================
 
