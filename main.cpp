@@ -8,7 +8,7 @@ int main(int argc, char** argv){
  
     printf("Mayank Kumar (c) 2019. C++ binary execution tool. \n");
     printf("USAGE : cxxtool \"FULL FILE LOCATION\"\n");
-    if(argc > 2) printf("More than one arguments. Error 101.\n");
+    if(argc > 2) printf("More than two arguments. Error 101.\n");
     else if( argc == 1) printf("Only one argument. ERROR 102.\n");
     else{
         std::string arg ( argv[1]),cmd = "/mnt/";
